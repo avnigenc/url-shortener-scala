@@ -1,0 +1,2 @@
+POST    /                        controllers.UrlShortenerController.createCtrl()
+GET     /:shortUrl               controllers.UrlShortenerController.redirectCtrl(shortUrl)
